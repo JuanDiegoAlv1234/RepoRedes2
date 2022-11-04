@@ -51,7 +51,7 @@ export default function Euro() {
     const [año, setAño] = useState([]);
     const GetDATA = async () => {
         const resp = await peticion(
-          "http://internal-backend-211340380.us-east-1.elb.amazonaws.com/desarrollo_economico",
+          "https://grupo16-redes2.ml/api/desarrollo_economico",
           "",
           "GET"
         );

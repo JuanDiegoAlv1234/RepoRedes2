@@ -50,7 +50,7 @@ export const Desarrolladores = () => {
   const { values, handleInputChange } = useForm({});
   const Getdesarrolladores = async () => {
     const resp = await peticion(
-      "http://internal-backend-211340380.us-east-1.elb.amazonaws.com/api/datos_desarrolladores",
+      "https://grupo16-redes2.ml/api/datos_desarrolladores",
       "",
       "GET"
     );

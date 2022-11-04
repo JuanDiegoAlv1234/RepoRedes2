@@ -50,7 +50,7 @@ export const Publica = () => {
   const { values, handleInputChange } = useForm({});
   const Getpublica = async () => {
     const resp = await peticion(
-      "http://internal-backend-211340380.us-east-1.elb.amazonaws.com/api/imagenes",
+      "https://grupo16-redes2.ml/api/imagenes",
       "",
       "GET"
     );

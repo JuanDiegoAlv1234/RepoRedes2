@@ -50,7 +50,7 @@ export const Administradores = () => {
   const { values, handleInputChange } = useForm({});
   const Getadministradores = async () => {
     const resp = await peticion(
-      "http://internal-backend-211340380.us-east-1.elb.amazonaws.com/api/datos_administradores/",
+      "https://grupo16-redes2.ml/api/datos_administradores/",
       "",
       "GET"
     );
